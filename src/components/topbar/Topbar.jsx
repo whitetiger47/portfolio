@@ -1,5 +1,6 @@
 import React from 'react'
 import "./topbar.scss"
+import {Person,Email} from "@material-ui/icons"
 
 export default function Topbar() {
   return (
@@ -7,8 +8,13 @@ export default function Topbar() {
       <div className="wrapper">
         <div className="left">
             <a href="#intro" className="logo">Smit</a>
-            <div className="itenContainer">
-              
+            <div className="itemContainer">
+                <Person className="icon"/>
+                <span>+1 (902)-580-7465</span>
+            </div>
+            <div className="itemContainer">
+                <Email className="icon"/>
+                <span>thakkarsmit28@gmail.com</span>
             </div>
             
         </div>
