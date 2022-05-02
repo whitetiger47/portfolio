@@ -1,16 +1,46 @@
-import React from 'react'
-import "./projects.scss"
+import React, { useState } from 'react';
+import "./projects.scss";
+import Projectlist from '../projectlist/Projectlist';
 
 export default function Projects() {
+  const [selected,setSelected] = useState("featured")
+
+
+  const list = [
+    {
+      id: "featured",
+      title: "Featured",
+    },
+    {
+      id: "web",
+      title: "Web App",
+    },
+    {
+      id: "mobile",
+      title: "Mobile App",
+    },
+    {
+      id: "design",
+      title: "Design",
+    },
+    {
+      id: "content",
+      title: "Content",
+    },
+
+  ];
+
   return (
     <div className="projects" id="projects">
       <h1>Projects</h1>
       <ul>
-        <li className="active">Featured</li>
-        <li>Web App</li>
-        <li>Mobile App</li>
-        <li>Designing</li>
-        <li>Branding</li>
+        {list.map(item=>(
+          <Projectlist title={item.title} 
+          active={selected===item.id} 
+          setSelected={setSelected}
+          id={item.id}
+          />
+        ))}
       </ul>
       <div className="container">
         <div className="item">
