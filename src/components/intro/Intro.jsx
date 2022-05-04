@@ -18,7 +18,7 @@ export default function Intro() {
       backDelay: 1500,
       backSpeed:60,
       
-      strings: ["Developer","Designer","Content Creator"],
+      strings: ["Software Developer","Mobile Developer","Content Creator","Finance Enthusiast"],
     });
   }
 
@@ -35,7 +35,7 @@ export default function Intro() {
           <div className="wrapper">
             <h2>Hi there, I'm</h2>
             <h1>Smit Thakkar</h1>
-            <h3>Freelance <span ref ={textRef}></span></h3>
+            <h3> <span ref ={textRef}></span></h3>
           </div>
           <a href="#probackground">
           <img src="assets/down.png" alt="" />
