@@ -1,3 +1,45 @@
 .education{
-    background-color: lightcoral;
+    background-color: white;
+    display: flex;
+    .left{
+        flex: 0.5;
+        .text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 5%;
+            height: 40px;
+
+        }
+        .image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 10%;
+            height: 500px;
+
+        }
+    }
+    .right{
+        flex: 0.5;
+        .text2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 5%;
+            height: 40px;
+        }
+        .image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 5%;
+            height: 500px;
+
+        }
+    }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./probackground.scss"
-import  { useEffect, useState } from "react";
+import  {useState } from "react";
 export default function Probackground() {
     const[currentSlide,setCurrentSlide]=useState(0);
 
@@ -38,7 +38,7 @@ export default function Probackground() {
   ];
 
   const handleClick = (way)=>{
-    way=="left" ? setCurrentSlide(currentSlide>0 ? currentSlide-1 : 2) :
+    way==="left" ? setCurrentSlide(currentSlide>0 ? currentSlide-1 : 2) :
     setCurrentSlide(currentSlide<data.length-1 ? currentSlide + 1 : 0);
   };
   return (
