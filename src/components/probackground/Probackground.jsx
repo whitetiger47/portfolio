@@ -11,8 +11,7 @@ export default function Probackground() {
       title: "Symcor",
       desc:
         "Data Analyst",
-      desc2:
-      "Convert and store raw data into structured format",
+      date: "March 2022 - Present",
       img:
         "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
@@ -28,10 +27,11 @@ export default function Probackground() {
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
+      icon: "./assets/advancetech.jpg",
+      title: "Advancetech Controls Pvt. Ltd.",
+      date: "December 2020 - March 2021",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Internet Of Things (IOT) Intern",
       img:
         "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
     },
@@ -58,15 +58,15 @@ export default function Probackground() {
                   <p>
                     {d.desc}
                   </p>
+                  
                   <h3>
                     {d.desc2}
                   </h3>
                   <span>{d.date}</span>
+                  
                 </div>
               </div>
-              <div className="right">
-              
-                <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930" alt="" />
+              <div className="right">  
               </div>
             </div>
             
