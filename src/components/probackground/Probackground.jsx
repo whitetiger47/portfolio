@@ -59,9 +59,7 @@ export default function Probackground() {
                     {d.desc}
                   </p>
                   
-                  <h3>
-                    {d.desc2}
-                  </h3>
+                  
                   <span>{d.date}</span>
                   
                 </div>
