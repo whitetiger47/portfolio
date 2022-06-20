@@ -43,6 +43,7 @@ export default function Probackground() {
   };
   return (
     <div className="probackground" id="probackground">
+    
         <div className="slider" style={{transform:`translateX(-${currentSlide * 100}vw)`}}>
           {data.map(d=>(
           
@@ -74,5 +75,6 @@ export default function Probackground() {
         <img src="assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
         <img src="assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick()}/>
     </div>
+    
   );
 }

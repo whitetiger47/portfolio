@@ -10,6 +10,9 @@
             flex-direction: column;
             margin-top: 5%;
             height: 40px;
+            h1{
+                color: red;
+            }
 
         }
         .image{
@@ -42,4 +45,44 @@
 
         }
     }
+    .edu1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10%;
+        .dal{
+            height: 150px;
+            width: 150px;
+            display: flex;
+            align-items: center;
+        justify-content: center;
+        flex-direction: column;
+            
+        }
+        
+        
+        
+    }
+    
+    
+    .edu2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .gtu{
+            height: 80px;
+                width: 80px;
+            display: flex;
+            align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+            
+        }
+        
+    }
+    
 }
+
