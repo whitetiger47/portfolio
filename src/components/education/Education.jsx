@@ -13,11 +13,11 @@ export default function Education() {
         <div className="edu1">
         <div className="dal">
         
-        <img src="assets/DAL.png" alt="" />
+        <img src="assets/dallogo.jpg" alt="" />
             
         </div>
         
-          <h3 >Master of Applied Computing Science</h3>
+          <h3 >Master of Applied Computer Science</h3>
           <h4>Dalhousie University, Halifax, Canada</h4>
           <h3>September 2021 - December 2022</h3>
           
