@@ -42,9 +42,28 @@ export default function Education() {
             Skills
           </h1>
         </div>
-        <div className="image">
-          <img src="assets/ss2.png" alt="" />
+        <div className="head">
+        <h3>Programming Languages:</h3>
         </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Python, JavaScript, JAVA, C++, C, Kotlin, HTML, CSS</li>
+        </ul>
+        <h3>Frameworks:</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">React, Flask, BootStrap, Django, Angular, .NET</li>
+        </ul>
+        <h3>Database:</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">MongoDB, Firebase, MySQL</li>
+        </ul>
+        <h3>Cloud Technologies:</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Amazon S3, Amazon IAM, AWS Lambda, AWS SNS, AWS Console, Cognito, Google Compute Engine, Docker</li>
+        </ul>
+        <h3>Version Control:</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Git, GitHub, GitLab</li>
+        </ul>
 
       </div>
 

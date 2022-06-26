@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "./projects.scss";
 import Projectlist from '../projectlist/Projectlist';
-import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio } from '../../data';
+import { featuredPortfolio } from '../../data';
 
 export default function Projects() {
   const [selected,setSelected] = useState("featured");
@@ -12,22 +12,7 @@ export default function Projects() {
       id: "featured",
       title: "Featured",
     },
-    {
-      id: "web",
-      title: "Web App",
-    },
-    {
-      id: "mobile",
-      title: "Mobile App",
-    },
-    {
-      id: "design",
-      title: "Design",
-    },
-    {
-      id: "content",
-      title: "Content",
-    },
+    
 
   ];
 
@@ -36,18 +21,6 @@ export default function Projects() {
     switch(selected){
       case "featured":
         setData(featuredPortfolio)
-        break;
-        case "web":
-        setData(webPortfolio)
-        break;
-        case "mobile":
-        setData(mobilePortfolio)
-        break;
-        case "design":
-        setData(designPortfolio)
-        break;
-        case "content":
-        setData(contentPortfolio)
         break;
         default:
           setData(featuredPortfolio)
@@ -71,8 +44,8 @@ export default function Projects() {
       <div className="container">
         {data.map(d=>(
         <div className="item">
-        <img src={d.img}
-        alt="" />
+        <a href={d.source}><img src={d.img}
+        alt="" /></a>
         <h3>{d.title}</h3>
         </div>
         ))}
