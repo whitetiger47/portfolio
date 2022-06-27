@@ -18,7 +18,7 @@ export default function Intro() {
       backDelay: 1500,
       backSpeed:60,
       
-      strings: ["Software Developer","Mobile Developer","Content Creator","Finance Enthusiast"],
+      strings: ["Software Developer","Mobile Developer","Content Creator","Gamer"],
     });
   }
 
