@@ -7,6 +7,22 @@ export default function Probackground() {
   const data = [
     {
       id: "1",
+      icon: ".assets/amazon.png",
+      title: "Amazon",
+      desc:
+        "Software Development Engineer",
+        date: "December 2022 - Present",
+    }
+    {
+      id: "2",
+      icon: ".assets/amazon.png",
+      title: "Amazon",
+      desc:
+        "Software Developer Intern",
+        date: "September 2022 - December 2022",
+    }
+    {
+      id: "3",
       icon: "./assets/symcor.png",
       title: "Symcor",
       desc:
@@ -16,7 +32,7 @@ export default function Probackground() {
         "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
     {
-      id: "2",
+      id: "4",
       icon: "./assets/august.png",
       title: "August Infotech",
       date: "January 2021 - June 2021",
@@ -26,7 +42,7 @@ export default function Probackground() {
         "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
     {
-      id: "3",
+      id: "5",
       icon: "./assets/advancetech.jpg",
       title: "Advancetech Controls Pvt. Ltd.",
       date: "December 2020 - March 2021",
