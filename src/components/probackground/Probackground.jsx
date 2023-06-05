@@ -7,20 +7,22 @@ export default function Probackground() {
   const data = [
     {
       id: "1",
-      icon: ".assets/amazon.png",
-      title: "Amazon",
+      icon: "./assets/amazon.png",
+      title: "Amazon Web Services",
       desc:
         "Software Development Engineer",
         date: "December 2022 - Present",
-    }
+        img:
+        "https://logos-download.com/wp-content/uploads/2016/12/Amazon_Web_Services_logo_AWS.png",
+    },
     {
       id: "2",
-      icon: ".assets/amazon.png",
-      title: "Amazon",
+      icon: "./assets/tempo.png",
+      title: "Tempo Software",
       desc:
         "Software Developer Intern",
         date: "September 2022 - December 2022",
-    }
+    },
     {
       id: "3",
       icon: "./assets/symcor.png",
@@ -54,7 +56,7 @@ export default function Probackground() {
   ];
 
   const handleClick = (way)=>{
-    way==="left" ? setCurrentSlide(currentSlide>0 ? currentSlide-1 : 2) :
+    way==="left" ? setCurrentSlide(currentSlide>0 ? currentSlide-1 : 4) :
     setCurrentSlide(currentSlide<data.length-1 ? currentSlide + 1 : 0);
   };
   return (
